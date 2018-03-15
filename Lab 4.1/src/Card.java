@@ -7,6 +7,6 @@ public class Card
 	
 	public Card(String rank, String suit, int value)
 	{
-		
+		for(int i = 0; i < deck)
 	}
 }

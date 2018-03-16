@@ -7,6 +7,33 @@ public class Card
 	
 	public Card(String rank, String suit, int value)
 	{
-		for(int i = 0; i < deck)
+		for(int i = 0; i < deck.length; i++)
+		{
+			deck[i] = i;
+		}
+	}
+
+	public int[] getDeck() {
+		return deck;
+	}
+
+	public void setDeck(int[] deck) {
+		this.deck = deck;
+	}
+
+	public String[] getSuit() {
+		return suit;
+	}
+
+	public void setSuit(String[] suit) {
+		this.suit = suit;
+	}
+
+	public String[] getRank() {
+		return rank;
+	}
+
+	public void setRank(String[] rank) {
+		this.rank = rank;
 	}
 }

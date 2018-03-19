@@ -55,7 +55,4 @@ public class Card
 	{
 		return this.rank + " of " + this.suit + ", current value: " + this.value;
 	}
-	
-	
-	
 }
